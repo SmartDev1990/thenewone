@@ -93,14 +93,14 @@ const MenuItem = () => {
         },
         {
           label: (
-            <Link href="#">
+            <Link href="https://629d05644717ce0358561c2d--riceswap.netlify.app/#/swap">
               <a>
                 <div className="listItem">
                   <div className="icon">
                     <FaLink />
                   </div>
                   <div className="text">
-                    Bridge <Tag color="red">Coming soon!</Tag>
+                    Swap Rice
                   </div>
                 </div>
               </a>
