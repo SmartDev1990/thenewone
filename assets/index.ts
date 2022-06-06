@@ -4,13 +4,15 @@ import { parseEther } from '@ethersproject/units';
 export const addresses: { [key: number]: string } = {
   97: process.env.NEXT_PUBLIC_BSC_MARKETPLACE_ADDRESS as string,
   80001: process.env.NEXT_PUBLIC_MATIC_MARKETPLACE_ADDRESS as string,
-  4: process.env.NEXT_PUBLIC_ETHEREUM_MARKETPLACE_ADDRESS as string
+  4: process.env.NEXT_PUBLIC_ETHEREUM_MARKETPLACE_ADDRESS as string,
+  32520: process.env.NEXT_PUBLIC_BRISE_MARKETPLACE_ADDRESS as string
 };
 
 export const WETH: { [key: number]: string } = {
   4: '0xc778417E063141139Fce010982780140Aa0cD5Ab',
   97: '0xae13d989daC2f0dEbFf460aC112a837C89BAa7cd',
-  80001: '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889'
+  80001: '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889',
+  32520: '0x0eb9036cbE0f052386f36170c6b07eF0a0E3f710'
 };
 
 export const CONSTANTS: {
@@ -40,7 +42,11 @@ export const CONSTANTS: {
     4: {
       nftMintFee: parseEther('0.000008'),
       collectionDeployFee: parseEther('0.00008')
-    }
+    },
+    32520: {
+      nftMintFee: parseEther('0.000008'),
+      collectionDeployFee: parseEther('0.00008')
+    },
   },
   paymentTokensPerNetwork: {
     80001: [
@@ -65,6 +71,18 @@ export const CONSTANTS: {
       },
       {
         token: WETH[4],
+        logo: '/icons/eth.svg',
+        name: 'Wrapped Ethereum'
+      }
+    ],
+    32520: [
+      {
+        token: AddressZero,
+        logo: '/icons/eth.svg',
+        name: 'Ethereum'
+      },
+      {
+        token: WETH[32520],
         logo: '/icons/eth.svg',
         name: 'Wrapped Ethereum'
       }

@@ -196,7 +196,7 @@ const Navbar = () => {
                 <div className="wallet__setting">
                   <div className="wallet__icon">
                     <Image
-                      src={chainIcons[chainId as keyof typeof chainIcons] || '/icons/eth.svg'}
+                      src={chainIcons[chainId as keyof typeof chainIcons] || '/icons/menu.svg'}
                       width={20}
                       height={20}
                       alt="wallet"
@@ -264,7 +264,7 @@ const Navbar = () => {
                     </div>
                     <div className="account__balance__info__right">
                       <div className="chain__name__amount">{parseFloat(balance).toFixed(2)}</div>
-                      <div className="source__account__amount">$3000 USD</div>
+                      <div className="source__account__amount">$1700 USD</div>
                     </div>
                   </div>
                 </div>
@@ -272,16 +272,16 @@ const Navbar = () => {
                   <div className="wallet__account__balance">
                     <div className="account__balance__info">
                       <div className="wallet__account__logo">
-                        <Image src="/icons/eth.svg" width={20} height={20} alt="wallet" />
+                        <Image src="/icons/rice.svg" width={20} height={20} alt="wallet" />
                       </div>
                       <div className="wallet__account__info">
-                        <div className="chain__name">VEF</div>
+                        <div className="chain__name">RICE</div>
                         <div className="source__account">USD</div>
                       </div>
                     </div>
                     <div className="account__balance__info__right">
-                      <div className="chain__name__amount">2.454</div>
-                      <div className="source__account__amount">$3,000 USD</div>
+                      <div className="chain__name__amount">0.000</div>
+                      <div className="source__account__amount">$0.001 USD</div>
                     </div>
                   </div>
                 </div>

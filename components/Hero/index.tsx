@@ -49,7 +49,7 @@ function Hero() {
               </div>
               <div className="title">Setup Wallet</div>
               <div className="content">
-                Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get
+                Connect to the Rice NFT marketplace using a wallet of choice. Sign transactions and messages and get
                 authenticated.
               </div>
             </div>
@@ -109,25 +109,25 @@ const carouselArray = [
     image: Wallet,
     title: 'Setup Wallet',
     content:
-      'Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
+      'Connect to the Rice NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
   },
   {
     image: PriceTag,
     title: 'Setup Wallet',
     content:
-      'Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
+      'Connect to the Rice NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
   },
   {
     image: PriceTag,
     title: 'Setup Wallet',
     content:
-      'Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
+      'Connect to the Rice NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
   },
   {
     image: PriceTag,
     title: 'Setup Wallet',
     content:
-      'Connect to the Vefi NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
+      'Connect to the Rice NFT marketplace using a wallet of choice. Sign transactions and messages and get authenticated.'
   }
 ];
 

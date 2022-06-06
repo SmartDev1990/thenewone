@@ -94,7 +94,7 @@ const DiscoverText2 = styled.div`
   @media screen and (max-width: 760px) {
     margin: 0px;
     margin-top: 0px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 50px;
     max-width: 100%;
     font-weight: 600 !important;
@@ -492,7 +492,7 @@ export default function Homepage() {
   return (
     <>
       <Head>
-        <title>Vefi NFT marketplace | Create and trade various non-fungible assets</title>
+        <title>Rice NFT marketplace | Create and trade various non-fungible assets</title>
       </Head>
       <MainContainer>
         <MarketplaceContainer>
@@ -501,9 +501,6 @@ export default function Homepage() {
               <Navbar />
             </div>
             <DiscoverAndAnimate>
-              <ExploreNFT>
-                <Image width="97px" height="585px" src="/icons/exploreNFT.png" />
-              </ExploreNFT>
               <DiscoverPart>
                 <DiscoverText>RICE MARKET</DiscoverText>
                 <DiscoverText2>Create, Sell or Buy NFT In Bitgert Chain Network.</DiscoverText2>
@@ -621,9 +618,9 @@ export default function Homepage() {
           {/* <Footer>
             <div className="footer__container">
               <div className="footer__left">
-                <h2>Introducing the Vefi bridging technology </h2>
+                <h2>Introducing the Rice bridging technology </h2>
                 <p>
-                  Get to link your Nft from one network to another Quick and easy right from the VefiNft website Read
+                  Get to link your Nft from one network to another Quick and easy right from the RiceNft website Read
                   more
                 </p>
                 <Button type="primary">Start Bridging</Button>
